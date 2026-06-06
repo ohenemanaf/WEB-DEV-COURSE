@@ -11,8 +11,8 @@ inquirer
   .prompt([
     /* Pass your questions in here */
     {
-      name: "URL",
-      message: "Type in a  URL",
+      name: "URL", 
+      message: "Type in a URL",
     },
   ])
   .then((answers) => {
